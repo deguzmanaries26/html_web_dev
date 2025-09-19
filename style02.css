@@ -1,0 +1,256 @@
+body {
+    display: flex;
+    flex-direction: column ;
+    gap: 10px;
+    align-items: center;
+
+}
+.profile_part {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* soft shadow */
+    width: 100%;
+    height: 600px;
+    justify-content: space-between;
+    align-self: center;
+ 
+}
+.profile {
+    width: 160px;
+    height: 160px;
+    margin: 20px auto;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+    margin-bottom: -95px;
+    margin-left: -850px;
+
+}
+.cover {
+    width: 60%;
+    height: 75%;
+    border-radius: 20px;
+    margin-left: 300px
+    
+}   
+.name {
+  font-weight: bold;
+  font-size: 35px;
+  font-family: Arial;
+  text-align: center;
+  margin-left: -100px;
+  margin-bottom: 0;
+  
+}
+.add-story {
+  width: 120px;
+  height: 40px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: 5px;
+  color: aliceblue;
+  background-color: royalblue;
+  cursor: pointer;
+  margin-left: 900px;
+  margin-bottom: -50px
+
+}
+.edit {
+  width: 120px;
+  height: 40px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: 5px;
+  cursor: pointer;
+}
+.posts {
+  background-color: white;
+  font-size: 15px;
+  color: grey;
+  width: 100px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  margin-left: -875px;
+  margin-top: 50px;
+}
+.about {
+   background-color: white;
+  font-size: 15px;
+  color: grey;
+  width: 100px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+.friends {
+   background-color: white;
+  font-size: 15px;
+  color: grey;
+  width: 100px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+.photos {
+   background-color: white;
+  font-size: 15px;
+  color: grey;
+  width: 100px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+.videos {
+   background-color: white;
+  font-size: 15px;
+  color:  grey;
+  width: 100px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+.intro-part{
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* soft shadow */
+    width: 500px;
+    height: 200px;
+    margin-left: -500px;
+}
+.intro {
+  font-family: arial;
+  margin-top: 0;
+}
+.bio {
+  width: 100%;
+  height: 30px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: none;
+  background-color: lightgrey
+}
+.details {
+  width: 100%;
+  height: 30px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 15px ;
+  background-color: lightgrey
+}
+.feature {
+  width: 100%;
+  height: 30px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 15px;
+  background-color: lightgrey 
+}
+.photo-part {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* soft shadow */
+  width: 500px;
+  height: 500px;
+  margin-left: -500px;
+}
+.poto {
+  font-size: 20px;
+  font-family: arial;
+  color: black;
+  margin-top: 0;
+}
+.album {
+  width: 70%;
+  padding: 75px;
+  margin-top: -25px
+}
+.status {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* soft shadow */
+  width: 500px;
+  height: 150px;
+  align-self: center;
+  margin-top: -780px;
+  margin-left: 580px;
+}
+.mini-profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+  
+}
+.woym {
+  width: 88%;
+  height: 40px;
+  font-size: 16px;
+  text-align: left;
+  border-radius: 20px;
+  margin-top: -10px;
+  border: none;
+  background-color: lightgrey;
+  color: grey;
+}
+.line {
+  margin-left: -11px;
+ font-weight: bold;
+}
+.live {
+  font-size: 18px;
+  width: 30%;
+  height: 30%;
+  border-radius: 5px;
+  margin-left: 20px;
+  border: none;
+  background-color: white;
+}
+.live:hover{
+  background-color: lightgrey;
+}
+.PORV {
+  font-size: 18px;
+  width: 30%;
+  height: 30%;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+}
+.PORV:hover{
+  background-color: lightgrey;
+}
+.Life-event {
+  font-size: 18px;
+  width: 30%;
+  height: 30%;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+}
+.Life-event:hover{
+  background-color: lightgrey;
+}
+.upload {
+  background-color: lightgrey;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* soft shadow */
+  width: 500px;
+  height: 30px;
+  align-self: center;
+  margin-top: 5px;
+  margin-left: 580px;
+  text-align: center;
+}
+ 
+
