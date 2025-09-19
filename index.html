@@ -1,71 +1,43 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>My first web page</title>
+        <title>fb profile</title>
+        <link rel="stylesheet" href="style.css">
     </head>
-    <style>
-        body {
-            height: 100vh;
-            width: 100vw;
-            background-image: url('Ariana\ copilot.png');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-        .name{
-            font-weight: bold;
-            font-size: 100px;
-            font-family: times 'Times New Roman', Times, serif;
-            color: #000;
-            text-align: center;
-        }
-        .dropbtn {
-            text-align: center;
-            font-size: 50px;
-            font-family: 'Times New Roman', Times, serif;
-            font-weight: bold;
-            color: #000;
-            background-color: palevioletred
-            padding: 16px;
-            border: none;
-            cursor: pointer;
-        }
-        .nav{
-            position: relative;
-        }
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: #f9f9f9;
-            min-width: 160px;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-            z-index: 1;
-        }
-        .dropdown-content a {
-            color: black;
-            padding: 12px 16px;
-            text-decoration: none;
-            display: block;
-            text-align: center;
-        }
-        .dropdown-content a:hover {
-            background-color: #f1f1f1;
-        }
-        .nav:hover .dropdown-content {
-            display: block;
-        }
-        .nav:hover .dropbtn {
-            background-color: #3e8e41;
-        }
-    </style>
-    <body> 
-         <h1 class="name">aries de guzman</h1>
-       <ul class="nav">
-        <button class="dropbtn">Home</button>
-        <div class="dropdown-content">
-        <li><a href="about.html">About</a></li>
-        <li><a href="hobby.html">Hobby</a></li>
-        <li><a href="contact.html">Contact</a></li>
+    <body>
+        <div class="back">
+            <div class="overlay"></div>
+            <img class="back" src="Ariana Grande Slippe.png">
+            <img src="Ariana Grande Career.png" class="profile"> 
+            <nav class="name">Aries De Guzman</nav>
+                <button class="follow">Follow</button>
+                <button class="message">Message</button>
         </div>
-    </ul>
-</html>
+        <div class="info">
+            <p class="followers"> followers -- 378M</p>
+            <p class="following"> following -- 987</p>
+        </div>
+        <div class="tabs">
+            <button class="pots">Posts</button>
+            <button class="about">About</button>
+            <button class="friends">Friends</button>
+            <button class="photos">Photos</button>
+            <button class="videos">Videos</button>
+        </div>
+        <div class="line">
+            <p>____________________________________________________________</p>
+        </div>
+        <img src="Ariana Grande Career.png" class="mini"> 
+        <div class="post">
+            <nav class="posts">Posts:</nav>
+            <nav class="mininame">Aries De Guzman</nav>
+            <nav class="time">followers - 1h</nav>
+            <nav class="caption">See you on the Eternal Sunshine Tour! I love you so much!!</nav>
+            <img src="Ariana Grande _ Arti.png" class="posting">
+            <div class="likecommentshare">
+                <button class="like">Like</button>
+                <button class="comment">Comment</button>
+                <button class="share">Share</button>
+        </div>
+    </body>
+</html
